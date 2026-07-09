@@ -12,6 +12,11 @@ dependencies = [
 ]
 
 [dependency-groups]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.5.0",
+    "mkdocstrings[python]>=0.27.0",
+]
 
 [build-system]
 build-backend = "hatchling.build"
