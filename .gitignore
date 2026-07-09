@@ -1,0 +1,54 @@
+# uv environments
+.venv
+*.egg-info
+
+# mkdocs build output
+site/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+.eggs/
+wheels/
+
+# Virtual environments
+env/
+venv/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.cache
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# AI
+.claude
+
