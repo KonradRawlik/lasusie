@@ -4,12 +4,14 @@ requires-python = ">=3.11,<3.12"
 version = "0.1.0"
 dependencies = [
     "numpy>=2.2.6,<3",
-    "jax-metal==0.1.0",
     "equinox>=0.13.8",
     "lineax>=0.1.1",
     "optimistix>=0.1.0",
     "jax>=0.10.2",
 ]
+
+[project.optional-dependencies]
+metal = ["jax-metal==0.1.0 ; sys_platform == 'darwin' and platform_machine == 'arm64'"]
 
 [dependency-groups]
 examples = [
