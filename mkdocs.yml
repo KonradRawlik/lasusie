@@ -1,6 +1,8 @@
 site_name: lasusie
 site_description: Generalized SuSiE fine-mapping in JAX
-repo_name: lasusie
+site_url: https://konradrawlik.github.io/lasusie/
+repo_name: KonradRawlik/lasusie
+repo_url: https://github.com/KonradRawlik/lasusie
 
 theme:
   name: material

@@ -55,3 +55,13 @@ uv run mkdocs build
 - [Extending](extending/index.md) — how to add a new design, likelihood, or
   prior.
 - [API Reference](api.md) — generated from docstrings.
+
+## License
+
+`lasusie` is released under the
+[MIT License](https://github.com/KonradRawlik/lasusie/blob/main/LICENSE.md).
+
+## Development note
+
+[Claude Code](https://claude.com/claude-code) was used in aspects of the
+development of this library.

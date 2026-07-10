@@ -53,7 +53,7 @@ monitored on the ELBO.
 
 !!! note "In the code"
     The outer loop is [`ibss`][lasusie.ibss.ibss]; the per-effect SER step is
-    [`single_effect_regression`][lasusie.ibss.single_effect_regression]. The
+    `_single_effect_regression`. The
     three M-steps are toggled independently by `update_prior`,
     `update_likelihood`, and `update_covariates` on `ibss`.
 
@@ -131,7 +131,7 @@ alone, or the likelihood together with each prior component.
 
 !!! note "In the code"
     Selected via `ser_fit` on
-    [`single_effect_regression`][lasusie.ibss.single_effect_regression]:
+    `_single_effect_regression`:
     `"joint"` (default) uses
     [`Prior.combine_joint`][lasusie.model.Prior.combine_joint]; `"conjugate"`
     uses [`Prior.combine`][lasusie.model.Prior.combine]. The numerical
@@ -189,7 +189,7 @@ so the quantity being monitored always matches what was actually optimized.
 
 !!! note "In the code"
     Controlled by `propagate_variance` on
-    [`ibss`][lasusie.ibss.ibss]/[`single_effect_regression`][lasusie.ibss.single_effect_regression],
+    [`ibss`][lasusie.ibss.ibss]/`_single_effect_regression`,
     which switches between `likelihood.log_density` (zeroth order) and
     `likelihood.expected_log_density` (variance-propagating). Gauss-Hermite
     quadrature is [`PointwiseLikelihood.expected_log_density`][lasusie.model.PointwiseLikelihood.expected_log_density];
