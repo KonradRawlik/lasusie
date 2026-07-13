@@ -6,7 +6,7 @@ managed with [uv](https://docs.astral.sh/uv/) and targets Python 3.11.
 ## From source
 
 ```bash
-git clone <repo-url> lasusie
+git clone https://github.com/KonradRawlik/lasusie.git
 cd lasusie
 uv sync
 ```
